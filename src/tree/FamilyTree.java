@@ -1,4 +1,4 @@
-package trees;
+package tree;
 
 import java.util.*;
 import java.io.*;
@@ -12,10 +12,12 @@ public class FamilyTree {
         private TreeNode parent;
         private ArrayList<TreeNode> children;
 
-        TreeNode(String name) {
+        
+        public TreeNode(String name) {
             this.name = name;
             children = new ArrayList<>();
         }
+
 
         String getName() {
             return name;
