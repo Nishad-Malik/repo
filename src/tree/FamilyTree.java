@@ -8,7 +8,7 @@ import javax.swing.filechooser.*;
 public class FamilyTree {
 
     private static class TreeNode {
-        private String name;
+       private String name;
         private TreeNode parent;
         private ArrayList<TreeNode> children;
 
